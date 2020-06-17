@@ -1,0 +1,114 @@
+*{
+    margin: 0 auto;
+    margin-top: 5mm;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body{
+    
+    width: 70mm;
+    height: 143mm;
+    /* border: 1px solid black; */
+    font-family: 'Righteous', cursive;
+    color:gray;
+    text-align: center;
+
+    
+}
+
+
+
+input{
+    background-color: #A7A9AC;
+    border: none;
+    width: 120px;
+    height: 35px;
+    color:white;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Righteous', cursive;
+    
+
+}
+
+button{
+    border: 3px solid #A7A9AC;
+    background-color: white;
+    color: #A7A9AC;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-left: 8px;
+    background-image: url(../img/searchIcon-01.png);
+}
+
+button:hover{
+    background-color: #E5AEB8;
+}
+
+
+.refresh{
+    border: 3px solid #a7a9ac;
+    border-radius: 35px;
+    margin-top: 20px;
+
+    margin-left: 10px;
+    position: absolute;
+}
+
+.refresh:hover{
+    background-color: #BCDAE8;
+}
+#weatherIcon{
+    z-index: 100;
+    width: 80%;
+
+    
+}
+#exercise{
+    margin-top: 0mm;
+}
+
+#bimg{
+    margin-top: -20mm;
+    width: 70mm;
+    height: 90mm;
+    /* background: url(/img/backgroundImg-01.jpg); */
+
+}
+
+
+#btImg{
+    /* background: url(/img/backgroungTopImg-03.jpg); */
+    width: 70mm;
+    height: 25mm;
+}
+
+#minTemp{
+    float: left;
+    /* padding-left: 28%; */
+}
+
+#maxTemp{
+    float: right;
+    /* padding-right: 30%; */
+}
+
+#minArrow{
+    display: inline-block;
+}
+
+#maxArrow{
+    display:inline-block;
+
+}
+
+#minArrow>img{
+    display: none;
+}
+
+#maxArrow>img{
+    display: none;
+}
