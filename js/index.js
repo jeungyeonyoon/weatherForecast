@@ -24,7 +24,7 @@ const weather = () => {
             const temperature = data.main.temp;
             const cityName = data.name;
             //const weatherIcon = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
-            const weatherIcon = "../img/" + data.weather[0].icon + ".png";
+            const weatherIcon = "img/" + data.weather[0].icon + ".png";
 
             const minTemp = data.main.temp_min;
             const maxTemp = data.main.temp_max;
