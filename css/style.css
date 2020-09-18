@@ -29,6 +29,7 @@ input{
     border-radius: 20px;
     font-size: 14px;
     font-family: 'Righteous', cursive;
+    outline: none;
     
 
 }
@@ -42,10 +43,12 @@ button{
     border-radius: 35px;
     margin-left: 8px;
     background-image: url(../img/searchIcon-01.png);
+    outline: none;
 }
 
 button:hover{
     background-color: #E5AEB8;
+    outline: none;
 }
 
 
@@ -56,6 +59,7 @@ button:hover{
 
     margin-left: 10px;
     position: absolute;
+    outline: none;
 }
 
 .refresh:hover{
